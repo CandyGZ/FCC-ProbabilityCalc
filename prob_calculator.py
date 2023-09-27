@@ -3,6 +3,11 @@ import random
 
 # Consider using the modules imported above.
 
+
+# kwargs stands for "keyword arguments". It is a Python feature that allows you to pass arguments to a function by keyword,
+#  instead of by position. This can be useful when you have a function with many arguments, or when you want to explicitly specify the values of certain arguments.
+# To use kwargs, you simply pass a dictionary of arguments to the function. The keys of the dictionary are the names of the arguments,
+# and the values of the dictionary are the values of the arguments.
 class Hat:
     def __init__(self, **kwargs):
         # This line initializes the contents attribute of the Hat object.
